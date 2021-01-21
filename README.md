@@ -1,7 +1,7 @@
 # Binary Classification (Kaggle Competition)
 
 ## Project Overview
-This project aims to solve a binary classification problem, where memorable (label:1) and non-memorable (label:0) pictures in Brighton are provided as a training dataset. The goal for the classifier is to predict these labels, but for a test dataset in London (_domain adaptation problem_). <br/>
+This project aims to solve a binary classification problem, where memorable (label:1) and non-memorable (label:0) pictures in Brighton are provided as a training dataset. The goal for the classifier is to predict these labels, but for a test dataset in London i.e. domain adaptation problem. <br/>
 
 In this classification problem, we observe training data (X_1,Y_1 )…(X_247,Y_247) where X is a 4608-d feature vector; 4096 of them being deep CNNs features taken from the fc7 activation layer of CaffeNet, and the rest 512 being GIST features, and Y is the label {1,0}. <br/>
 
