@@ -5,9 +5,9 @@ This project aims to solve a binary classification problem, where memorable (lab
 
 In this classification problem, we observe training data (X_1,Y_1 )…(X_247,Y_247) where X is a 4608-d feature vector; 4096 of them being deep CNNs features taken from the fc7 activation layer of CaffeNet, and the rest 512 being GIST features, and Y is the label {1,0}. <br/>
 
-A variety of classifiers are tested; such as SVM, DT, etc. but they produced low accuracies, and even the Curse of Dimensionality. <br/>
+A variety of classifiers are tested; such as SVM, DT, etc. but they suffered from the Curse of Dimensionality i.e. low accuracy. <br/>
 
-We are provided with the _confidence_ of each instance (which is the probability of the input to fall in a specific class), and the fact that logistic regression analysis is used to investigate the relationship between a binary response and a set of variables, a logistic regression model seems appropriate.
+We are provided with the _confidence_ of each instance (which is the probability of the input to fall in a specific class), and the fact that logistic regression analysis is used to investigate the relationship between a binary response and a set of variables, a logistic regression model seems appropriate - with a bagging classifier.
 
 ## Paper
 [For more information about the project, download my paper here](https://drive.google.com/file/d/1QA14EAkolyg9100FOOQd4-AWrDJfWU6b/view?usp=sharing)
