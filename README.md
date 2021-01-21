@@ -17,4 +17,4 @@ Note: the code is in 1 file to reduce compilation time. You are free to restruct
 
 #### [Download the dataset here](https://www.kaggle.com/t/a127c5f83af644c3b2dca12f6d3cc1f2)
 
-##### This project is protected by an MIT License. For more information, please read the [LICENSE](https://github.com/tala360/facial_landmark_detection/blob/main/LICENSE) file.
+##### This project is protected by an MIT License. For more information, please read the [LICENSE](https://github.com/tala360/binary_classification/blob/main/LICENSE) file.
