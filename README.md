@@ -9,11 +9,8 @@ A variety of classifiers are tested; such as SVM, DT, etc. but they suffered fro
 
 We are provided with the _confidence_ of each instance (which is the probability of the input to fall in a specific class), and the fact that logistic regression analysis is used to investigate the relationship between a binary response and a set of variables, a logistic regression model seems appropriate - with a bagging classifier.
 
-## Paper
+## Results and Discussion
 [For more information about the project, download my paper here](https://drive.google.com/file/d/1QA14EAkolyg9100FOOQd4-AWrDJfWU6b/view?usp=sharing)
-
-## Important
-Note: the code is in 1 file to reduce compilation time. You are free to restructure it and create your own classes/files.
 
 #### [Download the dataset here](https://www.kaggle.com/t/a127c5f83af644c3b2dca12f6d3cc1f2)
 
